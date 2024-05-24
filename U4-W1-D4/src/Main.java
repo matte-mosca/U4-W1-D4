@@ -23,7 +23,10 @@ public class Main {
             System.out.println("Matricola: " +dipendenti[i].getMatricola()+ ", stipendio: " +dipendenti[i].calculateSalary() );
 
         }
-        
+
+        volontario1.WorkCheckIn();
+
+
     }
 }
 

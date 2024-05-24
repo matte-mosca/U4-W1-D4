@@ -1,6 +1,6 @@
 package Esercizi;
 
-public class Volontario implements WorkCheckIn {
+public class Volontario implements CheckIn {
     protected String nome;
     protected int anni;
     protected String[] CV;
@@ -11,7 +11,7 @@ public class Volontario implements WorkCheckIn {
         this.CV = cv;
     }
     @Override
-   public void CheckIn(){
+   public void WorkCheckIn(){
         System.out.println("I volontari hanno check-in libero");
     }
 
